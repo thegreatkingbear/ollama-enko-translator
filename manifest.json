@@ -1,7 +1,7 @@
 {
     "name": "Translate with Ollama (EN→KO)",
     "description": "Right-click selected English text to translate it into Korean using a local Ollama model.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "manifest_version": 3,
     "permissions": [
         "contextMenus",
@@ -15,6 +15,7 @@
     "host_permissions": [
         "http://localhost:11434/*",
         "http://127.0.0.1:11434/*",
+        "http://192.168.1.99/*",
         "http://[::1]:11434/*"
     ],
     "background": {
